@@ -4,22 +4,77 @@
     box-sizing: border-box;
 }
 
-.bagde{
-    /* border-radius*/
-}
-
 /* ul {
     list-style: none; --> to disable dotted list 
 }*/
 
 
-.white-text{
+body{
+    background-color: #f6f8f9;
+}
+
+
+/* header */
+
+header, main{
+    background-color: #FFFFFF;
+}
+
+h1 {
+    display: inline;
+    font-style: arial;
+    font-size: 2.5em;
+}
+
+/* main */
+
+main{
+    margin: 50px 25% 50px 25%;
+    border-radius: 5px;
+
+}
+
+section{
+    border-bottom: 2px solid #f6f8f9;
+    padding: 10px 5%;
+}
+
+section>button{
+    font-size: 0.8em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blue-button{
+    background-color: #47adf1;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+
+.grey-button{
+    color: #ccd1d5;
+    background-color: #FFFFFF;
+    border: 1px solid #ccd1d5;
+}
+
+
+
+
+
+
+
+
+
+
+/* .white-text{
     color: #FFFFFF;
 }
 
 .grey-text{
     color: #808080;
 }
+
 
 .bg-lightblue{
     background-color: #47adf1;
@@ -45,9 +100,11 @@
     background-color: #b0c926;
 }
 
+/*
 
 /* temporary handmade symbols */
 
+/*  
 .success-checkmark::before {
       content: 'V';
       color: green;
@@ -79,4 +136,5 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 10px solid #000;
-  }
+  } 
+  */
