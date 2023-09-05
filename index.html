@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <!-- header (logo + title) UNFINISHED --> 
+    <!-- header (logo + title) --> 
     <header>
         <img id="logo" src="img/Logo.png" alt="logo">
         <h1>Toboolist</h1>
@@ -20,27 +20,31 @@
             <button class="blue-button">Add Task</button>
             <button class="grey-button">Add Section</button>
         </section> <!-- action buttons-->
-
+        
+        <!-- new task -->
         <ul>
-            <span>New Task</span>
-            <li>Quarterly Newsletter</li>
-        </ul> <!-- new Task-->
+            <div class="downward-triangle"></div><span>New Task</span>
+            <li class="success-checkmark">Quarterly Newsletter</li>
+        </ul>
 
+        <!-- today -->
         <ul>
-            <span>Today</span>
-            <li>Recruiting blog post</li>
-            <li>Mobile app launch</li>
-            <li>Interview John H.</li>
-            <li>Summit update to mobile storefronts</li>
-        </ul> <!-- today-->
+            <div class="downward-triangle"></div><span>Today</span>
+            <li class="success-checkmark">Recruiting blog post</li>
+            <li class="success-checkmark">Mobile app launch</li>
+            <li class="fail-checkmark">Interview John H.</li>
+            <li class="success-checkmark">Summit update to mobile storefronts</li>
+        </ul>
 
+        <!-- upcoming -->
         <ul>
-            <span>Upcoming</span>
-            <li>Schedule meeting with Alex</li>
-            <li>Homepage refresh</li>
-            <li>Onboard new Sales team members</li>
-            <li>Review editorial calendar</li>
-        </ul> <!-- upcoming-->
+            <div class="downward-triangle"></div><span>Upcoming</span>
+            <li class="fail-checkmark">Schedule meeting with Alex</li>
+            <li class="success-checkmark">Homepage refresh</li>
+            <li class="success-checkmark">Onboard new Sales team members</li>
+            <li class="success-checkmark">Review editorial calendar</li>
+        </ul>
+
     </main>
 
 

@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-/* ul {
-    list-style: none; --> to disable dotted list 
-}*/
-
 
 body{
     background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -20,9 +17,14 @@ header, main{
     background-color: #FFFFFF;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
 h1 {
     display: inline;
-    font-style: arial;
     font-size: 2.5em;
 }
 
@@ -36,7 +38,7 @@ main{
 
 section{
     border-bottom: 2px solid #f6f8f9;
-    padding: 10px 5%;
+    padding: 10px 50px;
 }
 
 section>button{
@@ -59,10 +61,68 @@ section>button{
 }
 
 
+/* lists */
+
+ul{
+    padding: 20px 5px 10px 40px;
+    list-style: none;
+}
 
 
+ul>span{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline;
+
+}
+
+li{
+    margin: 20px 5px 10px 0px;
+}
 
 
+/* entities and specials */
+
+.downward-triangle {
+    height: 10px; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+  } 
+
+
+.success-checkmark::before{
+    content: '\2713';
+    font-size: 0.8em;
+    color: green;
+    text-align: center;
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.fail-checkmark::before{
+    content: '\2717';
+    font-size: 0.8em;
+    color: red;
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 
 
@@ -105,36 +165,11 @@ section>button{
 /* temporary handmade symbols */
 
 /*  
-.success-checkmark::before {
-      content: 'V';
-      color: green;
-      padding: 2px;
-      width: 20px;
-      height: 20px;
-      text-align: center;
-      border: 2px solid green;
-      border-radius: 50%;
-}
 
 
-.fail-checkmark::before{
-    content: 'X';
-    color: red;
-    padding: 2px;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    border: 2px solid red;
-    text-align: center;
-    border-radius: 50%;
-}
 
 
-.downward-triangle {
-    width: 0; 
-    height: 0; 
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 10px solid #000;
-  } 
+
+
+
   */
