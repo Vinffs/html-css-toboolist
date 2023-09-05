@@ -1,9 +1,11 @@
+
+/* page setup */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body{
     background-color: #f6f8f9;
@@ -23,6 +25,27 @@ body{
 .bg-white{
     background-color: #FFFFFF;
 }
+
+.bg-purple{
+    background-color: #9c72e4;
+}
+
+.bg-green{
+    background-color: #64c0a9;
+}
+
+.bg-orange{
+    background-color: #f19d32;
+}
+
+.bg-pink{
+    background-color: #d863a1;
+}
+
+.bg-lightgreen{
+    background-color: #b0c926;
+}
+
 
 /* header */
 
@@ -85,7 +108,7 @@ section>button{
 }
 
 li{
-    margin: 20px 5px 10px 0px;
+    margin: 15px 5px 10px 0px;
 }
 
 
@@ -106,10 +129,10 @@ li{
     content: '\2713';
     font-size: 0.8em;
     color: green;
-    text-align: center;
     padding: 2px;
     width: 15px;
     height: 15px;
+    text-align: center;
     display: inline-block;
     border: 1px solid green;
     border-radius: 50%;
@@ -125,6 +148,7 @@ li{
     width: 15px;
     height: 15px;
     text-align: center;
+    display: inline-block;
     border: 1px solid red;
     text-align: center;
     border-radius: 50%;
@@ -133,33 +157,10 @@ li{
 }
 
 
-
-
-/* 
-
-
-
+.badge{
+    display: inline-block;
+    font-size: 0.6em;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
-
-.bg-purple{
-    background-color: #9c72e4;
-}
-
-.bg-green{
-    background-color: #64c0a9;
-}
-
-.bg-orange{
-    background-color: #f19d32;
-}
-
-.bg-pink{
-    background-color: #d863a1;
-}
-
-.bg-lightgreen{
-    background-color: #b0c926;
-}
-
-/*
-
